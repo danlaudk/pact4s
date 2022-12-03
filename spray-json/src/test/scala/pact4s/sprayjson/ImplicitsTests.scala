@@ -18,7 +18,6 @@ package pact4s.sprayjson
 
 import munit.FunSuite
 import pact4s.sprayjson.implicits.providerStateFormat
-//import spray.json.DefaultJsonProtocol._
 import pact4s.provider.ProviderState
 import spray.json._
 

@@ -83,7 +83,7 @@ lazy val sprayJson =
       libraryDependencies ++= Dependencies.sprayJson,
       Test / parallelExecution := true
     )
-    .dependsOn(shared)
+    .dependsOn(models)
 
 lazy val munit =
   (project in file("munit-cats-effect-pact"))
